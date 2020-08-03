@@ -1,3 +1,3 @@
-import { GameplayUtilities, GameEngine } from "/folktales/include/factorygame/factorygame.js";
+import { GameplayUtilities, GameEngine } from "/projectName/include/factorygame/factorygame.js";
 
 GameplayUtilities.createGameEngine(GameEngine);
