@@ -1,0 +1,12 @@
+{
+  "name": "projectName",
+  "version": "1.0.0",
+  "description": "projectDescription",
+  "main": "index.js",
+  "dependencies": {
+    "@types/jquery": "2.0.34",
+    "factorygame": "0.1.6",
+    "typescript": "3.8.3",
+    "three": "0.118.3"
+  }
+}

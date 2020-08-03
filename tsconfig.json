@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "moduleResolution": "node",
+        "outDir": "public/projectName",
+        "baseUrl": "src",
+        "paths": {
+            "/projectName/include": [ "../public/projectName/include" ],
+            "/projectName/include/*.js": [ "../public/projectName/include/*.d.ts" ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "node_modules/three/src/**.ts",
+        "node_modules/factorygame/include/**.ts"
+    ]
+}
